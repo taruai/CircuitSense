@@ -21,9 +21,9 @@ CircuitSense is a modern web application for monitoring and managing energy cons
 - Axios for API calls
 
 ### Backend
-- Node.js
-- Express.js
+- PHP
 - MySQL (XAMPP)
+- RESTful API Architecture
 - JWT Authentication
 
 ## Getting Started
@@ -31,7 +31,7 @@ CircuitSense is a modern web application for monitoring and managing energy cons
 ### Prerequisites
 - Node.js (v14 or higher)
 - npm or yarn
-- XAMPP (for MySQL database)
+- XAMPP (for PHP and MySQL)
 - Git
 
 ### Installation
@@ -48,30 +48,22 @@ cd energy-dashboard-frontend
 npm install
 ```
 
-3. Install Backend Dependencies
-```bash
-cd ../energy-dashboard-backend
-npm install
-```
-
-4. Set up Database
+3. Set up Backend
+   - Place the backend files in your XAMPP's htdocs directory
    - Start XAMPP Control Panel
    - Start Apache and MySQL services
-   - Import the database schema from `database/schema.sql`
+   - Import the database schema from `setup.sql`
 
-5. Set up Environment Variables
-   - Create `.env` file in the backend directory
-   - Add necessary environment variables:
-     ```
-     DB_HOST=localhost
-     DB_USER=root
-     DB_PASSWORD=
-     DB_NAME=circuit_sense
-     PORT=5000
-     JWT_SECRET=your_jwt_secret
+4. Set up Environment Variables
+   - Configure database connection in `config.php`:
+     ```php
+     define('DB_HOST', 'localhost');
+     define('DB_USER', 'root');
+     define('DB_PASSWORD', '');
+     define('DB_NAME', 'circuit_sense');
      ```
 
-6. Start the Development Servers
+5. Start the Development Servers
 
 Frontend:
 ```bash
@@ -80,10 +72,7 @@ npm start
 ```
 
 Backend:
-```bash
-cd energy-dashboard-backend
-npm run dev
-```
+- Access through XAMPP: http://localhost/energy-dashboard-backend
 
 ## Project Structure
 
@@ -99,14 +88,18 @@ CircuitSense/
 │   └── package.json
 │
 └── energy-dashboard-backend/
-    ├── src/
-    │   ├── controllers/
-    │   ├── models/
-    │   ├── routes/
-    │   └── ...
-    ├── database/
-    │   └── schema.sql
-    └── package.json
+    ├── alerts.php
+    ├── circuit_breakers.php
+    ├── config.php
+    ├── config_secure.php
+    ├── get_power_data.php
+    ├── get_power_projections.php
+    ├── login.php
+    ├── register.php
+    ├── reset_password.php
+    ├── setup.sql
+    ├── setup_extended.sql
+    └── store_power_data.php
 ```
 
 
