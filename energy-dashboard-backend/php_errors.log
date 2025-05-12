@@ -1,0 +1,2166 @@
+[08-May-2025 21:47:46 Europe/Berlin] Received request for power data
+[08-May-2025 21:47:46 Europe/Berlin] User ID from request: null
+[08-May-2025 21:47:46 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:47:46 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:47:51 Europe/Berlin] Received request for power data
+[08-May-2025 21:47:51 Europe/Berlin] User ID from request: null
+[08-May-2025 21:47:51 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:47:51 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:47:56 Europe/Berlin] Received request for power data
+[08-May-2025 21:47:56 Europe/Berlin] User ID from request: null
+[08-May-2025 21:47:56 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:47:56 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:01 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:01 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:01 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:01 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:02 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:02 Europe/Berlin] User ID from request: 12
+[08-May-2025 21:48:02 Europe/Berlin] Found breakers: Array
+(
+    [0] => 19
+    [1] => 22
+    [2] => 20
+    [3] => 18
+    [4] => 21
+    [5] => 17
+    [6] => 16
+)
+
+[08-May-2025 21:48:02 Europe/Berlin] Executing query: 
+        SELECT 
+            breaker_id,
+            date,
+            avg_current,
+            avg_voltage,
+            avg_power
+        FROM power_data 
+        WHERE breaker_id IN (?,?,?,?,?,?,?)
+        ORDER BY date DESC
+    
+[08-May-2025 21:48:02 Europe/Berlin] With breaker IDs: 19, 22, 20, 18, 21, 17, 16
+[08-May-2025 21:48:02 Europe/Berlin] Found 168 power data records
+[08-May-2025 21:48:06 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:06 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:06 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:06 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:06 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:06 Europe/Berlin] User ID from request: 12
+[08-May-2025 21:48:06 Europe/Berlin] Found breakers: Array
+(
+    [0] => 19
+    [1] => 22
+    [2] => 20
+    [3] => 18
+    [4] => 21
+    [5] => 17
+    [6] => 16
+)
+
+[08-May-2025 21:48:06 Europe/Berlin] Executing query: 
+        SELECT 
+            breaker_id,
+            date,
+            avg_current,
+            avg_voltage,
+            avg_power
+        FROM power_data 
+        WHERE breaker_id IN (?,?,?,?,?,?,?)
+        ORDER BY date DESC
+    
+[08-May-2025 21:48:06 Europe/Berlin] With breaker IDs: 19, 22, 20, 18, 21, 17, 16
+[08-May-2025 21:48:06 Europe/Berlin] Found 168 power data records
+[08-May-2025 21:48:11 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:11 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:11 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:11 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:16 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:16 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:16 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:16 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:21 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:21 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:21 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:21 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:26 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:26 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:26 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:26 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:31 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:31 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:31 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:31 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:36 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:36 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:36 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:36 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:41 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:41 Europe/Berlin] User ID from request: null
+[08-May-2025 21:48:41 Europe/Berlin] Error in get_power_data.php: User ID is required
+[08-May-2025 21:48:41 Europe/Berlin] Stack trace: #0 {main}
+[08-May-2025 21:48:45 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:45 Europe/Berlin] User ID from request: 12
+[08-May-2025 21:48:45 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\energy-dashboard-backend\get_power_data.php on line 41
+[08-May-2025 21:48:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\energy-dashboard-backend\get_power_data.php:41
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\get_power_data.php on line 41
+[08-May-2025 21:48:45 Europe/Berlin] Received request for power data
+[08-May-2025 21:48:45 Europe/Berlin] User ID from request: 12
+[08-May-2025 21:48:45 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\energy-dashboard-backend\get_power_data.php on line 41
+[08-May-2025 21:48:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\energy-dashboard-backend\get_power_data.php:41
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\get_power_data.php on line 41
+[08-May-2025 21:55:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\energy-dashboard-backend\migrate.php:102
+Stack trace:
+#0 C:\xampp\htdocs\energy-dashboard-backend\migrate.php(102): PDO->rollBack()
+#1 C:\xampp\htdocs\energy-dashboard-backend\migrate.php(108): migrate()
+#2 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\migrate.php on line 102
+[08-May-2025 22:05:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:05:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:06:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:06:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:07:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:07:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:08:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:08:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:09:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:09:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:09:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:10:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:10:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:11:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:11:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:13:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:14:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:14:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\power_limits.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\power_limits.php on line 10
+[08-May-2025 22:14:39 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function checkRateLimit(), 0 passed in C:\xampp\htdocs\energy-dashboard-backend\power_limits.php on line 22 and exactly 1 expected in C:\xampp\htdocs\energy-dashboard-backend\config_secure.php:62
+Stack trace:
+#0 C:\xampp\htdocs\energy-dashboard-backend\power_limits.php(22): checkRateLimit()
+#1 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\config_secure.php on line 62
+[08-May-2025 22:15:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ALLOWED_ORIGIN" in C:\xampp\htdocs\energy-dashboard-backend\alerts.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\energy-dashboard-backend\alerts.php on line 10
+[08-May-2025 22:17:50 Europe/Berlin] Login successful. Session data: Array
+(
+    [user_id] => 12
+    [email] => test@example.com
+    [name] => Test User
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:17:58 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:18:03 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:18:13 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:00 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:02 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:09 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:14 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:14 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:14 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:27 Europe/Berlin] Login successful. Session data: Array
+(
+    [user_id] => 12
+    [email] => test@example.com
+    [name] => Test User
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:30 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:38 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:20:38 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:20:38 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [Content-Length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] User not authenticated. Session data: Array
+(
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Cookies: Array
+(
+    [PHPSESSID] => tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
+[08-May-2025 22:21:31 Europe/Berlin] Headers: Array
+(
+    [Host] => localhost
+    [Connection] => keep-alive
+    [sec-ch-ua-platform] => "Windows"
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [Accept] => application/json
+    [sec-ch-ua] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [Content-Type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [Origin] => http://localhost:3000
+    [Sec-Fetch-Site] => same-site
+    [Sec-Fetch-Mode] => cors
+    [Sec-Fetch-Dest] => empty
+    [Referer] => http://localhost:3000/
+    [Accept-Encoding] => gzip, deflate, br, zstd
+    [Accept-Language] => en-US,en;q=0.9
+    [Cookie] => PHPSESSID=tspfr9vd7k92nvgfgi8tdkcaqg
+)
+
