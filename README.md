@@ -103,8 +103,4 @@ CircuitSense/
 ```
 
 
-## Contact
-
-Kent Alexis T Alia - [@your_twitter](https://twitter.com/your_twitter)
-
 Project Link: [https://github.com/taruai/CircuitSense](https://github.com/taruai/CircuitSense)
