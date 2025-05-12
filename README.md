@@ -14,10 +14,10 @@ CircuitSense is a modern web application for monitoring and managing energy cons
 ## Tech Stack
 
 ### Frontend
-- React.js
-- Material-UI (MUI)
-- React Router
-- Context API for State Management
+- React.js (v19.1.0)
+- Material-UI (MUI v7.1.0)
+- React Router (v7.5.3)
+- Chart.js & Recharts for Data Visualization
 - Axios for API calls
 
 ### Backend
@@ -30,7 +30,7 @@ CircuitSense is a modern web application for monitoring and managing energy cons
 
 ### Prerequisites
 - Node.js (v14 or higher)
-- npm or yarn
+- npm (comes with Node.js)
 - XAMPP (for PHP and MySQL)
 - Git
 
@@ -70,6 +70,7 @@ Frontend:
 cd energy-dashboard-frontend
 npm start
 ```
+The frontend will be available at http://localhost:3000
 
 Backend:
 - Access through XAMPP: http://localhost/energy-dashboard-backend
@@ -85,7 +86,8 @@ CircuitSense/
 │   │   ├── services/
 │   │   └── ...
 │   ├── public/
-│   └── package.json
+│   ├── package.json
+│   └── .gitignore
 │
 └── energy-dashboard-backend/
     ├── alerts.php
